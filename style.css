@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color:lightskyblue;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+/* Home section styles */
+.home {
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgoldenrodyellow; /* Yellow background */
+    background-image: url(assent/bbbbbbbbbbbbbccckkkkkkke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+/* Contact links styles */
+.home a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+/* About section styles */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+.skills ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.skills ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    padding: 50px 0;
+    background-color:lightgoldenrodyellow ;
+}
+
+.portfolio .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.food-item {
+    margin-bottom: 50px;
+}
+
+.food-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.food-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.food-item .image {
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color:#610d0d;
+}
+
+.contact p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color:#333 ;
+}
+
+/* Location section styles */
+.location {
+   
+    text-align: center;
+  
+}
+
+.location h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.location h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling the services section */
+#services {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333; /* Dark gray text color */
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services-list > div {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.services-list > div i {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue icon color */
+}
+
+.services-list > div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray text color */
+}
+
+.services-list > div p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666; /* Gray text color */
+}
+
+.services-list > div a {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+}
+
+.services-list > div a:hover {
+  text-decoration: underline;
+}
+
+/* Services section styles */
+#services {
+  padding: 50px 0;
+  background-color: #f9f9f9; /* Light gray background */
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.services-list {
+  display: flex;
+}
+.services-list img{
+  width: 200px;
+
+}
+
+.services-list > div {
+  flex-basis: 30%;
+  background-color: #fff; /* White background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.services-list > div:hover {
+  transform: translateY(-5px);
+}
+
+.services-list > div i {
+  font-size: 3rem;
+  color: #007bff; /* Blue icon color */
+  margin-bottom: 20px;
+}
+
+.services-list > div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.services-list > div p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.services-list > div a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.services-list > div a:hover {
+  text-decoration: underline;
+}
+
+#services {
+  background-color: #f9c922; /* Yellow background */
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#services img{
+  width: 150px;
+}
+.sub-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333; /* Dark gray text color */
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services-list > div {
+  flex: 1;
+  margin:20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.services-list > div i {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue icon color */
+}
+
+.services-list > div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray text color */
+}
+
+.services-list > div p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666; /* Gray text color */
+}
+
+.services-list > div a {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+}
+
+.services-list > div a:hover {
+  text-decoration: underline;
+}
+#services {
+  background: linear-gradient(135deg, #ff6b6b, #6b6bff); /* Gradient from red to blue */
+  padding: 50px 0;
+}
+#services {
+  background-color: #9e4444; /* Red background */
+  padding: 50px 0;
+}
+.flex{
+  display: flex;
+  margin-left: 3rem;
+}
+.flex p{
+  margin-top: 15rem;
+}
+.social-media a:hover {
+  color: #007bff; /* Change color on hover as needed */
+}
+.img {
+width: 60px;
+}
+.skills-list {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* CSS for social media icons */
+    .social-media a {
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333; /* Change color as needed */
+    }
+.content{
+  background:linear-gradient(135deg, #ff6b6b, #6b6bff);;
+}
